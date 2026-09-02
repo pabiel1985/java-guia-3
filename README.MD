@@ -33,9 +33,9 @@ BICICLETA
 Crear una interfaz llamada `Transporte` que defina los siguientes métodos:
 
 ```java
-arrancar()
-detener()
-obtenerCapacidad()
+arrancar();
+detener();
+obtenerCapacidad();
 ```
 
 ## 1.3 Clase `Autobus`
@@ -55,7 +55,7 @@ Debe implementar los métodos definidos en `Transporte`.
 Además, debe incorporar:
 
 ```java
-anunciarParada(String parada)
+anunciarParada(String parada);
 ```
 
 Este método permitirá anunciar la próxima parada.
@@ -77,7 +77,7 @@ Debe implementar los métodos definidos en `Transporte`.
 Además, debe incorporar:
 
 ```java
-cambiarVia(int nuevaVia)
+cambiarVia(int nuevaVia);
 ```
 
 Este método permitirá cambiar de vía.
@@ -98,7 +98,7 @@ Debe implementar los métodos definidos en `Transporte`.
 Además, debe incorporar:
 
 ```java
-ajustarAsiento(int altura)
+ajustarAsiento(int altura);
 ```
 
 Este método permitirá ajustar la altura del asiento.
@@ -106,7 +106,7 @@ Este método permitirá ajustar la altura del asiento.
 El método:
 
 ```java
-obtenerCapacidad()
+obtenerCapacidad();
 ```
 
 debe devolver `1`, ya que la bicicleta tiene capacidad para una sola persona.
